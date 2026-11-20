@@ -1,6 +1,6 @@
 {
-    "version":  "0.8.1",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.8.1",
-    "notes":  "# Net Diagnostic v0.8.1\n\n\n### 改进\n\n- 检查更新后顶栏直接给出结论：`已是最新 vX.Y.Z`（绿色）或 `检查失败`（黄色，悬停看原因），旁边保留「重新检查 / 重试」。\n- 检查结果同时写到窗口底部状态栏：`已是最新版本（vX.Y.Z），无需更新。` / `发现新版本 vX.Y.Z…`，点完按钮不会\"什么都没发生\"。\n",
+    "version":  "0.8.2",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.8.2",
+    "notes":  "# Net Diagnostic v0.8.2\n\n\n### 修复\n\n- 0.8.0/0.8.1 的更新源用 `raw.githubusercontent.com`，国内网络常被重置（本机实测直连返回 000，而 `api.github.com` 返回 200），导致「检查更新」一直失败。默认源改为 **GitHub Contents API**，可直连。\n- 主源失败时自动尝试备用地址（raw），两个都失败才报错。\n- 配置里遗留的 raw 地址在加载时自动迁移到 Contents API。\n",
     "announcement":  null
 }
