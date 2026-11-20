@@ -1,8 +1,8 @@
 {
-    "version":  "0.10.0",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.10.0",
-    "notes":  "# Net Diagnostic v0.10.0\n\n\n### 变更\n\n- 测速默认**只走国内**：新增 direct 协议（直接 GET 文件 / POST 二进制），默认下载端点为清华 TUNA 的 Ubuntu ISO（实测 59.9 Mbps）。\n- 默认上传端点**留空**：国内市场没有公共上传服务，程序不会再退回 Cloudflare；上传模块显示\"未配置\"，需要时填单位内网的 POST 地址即可。\n- 旧的 Cloudflare 默认配置在加载时自动迁移到国内镜像；自定义端点不受影响。\n- 设置页协议下拉增加\"直连文件（国内，默认）\"。\n\n### 说明\n\n- 上传测速需要一台能接收 POST 的国内服务器；没有就跳过，不会产生任何境外流量。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.10.0/NetDiagnostic-0.10.0-x64.msi",
-    "sha256":  "6961990769a8bc7a8a43d22b7b66d9d6eb9f07b167c12299235f805c16ee09b1",
+    "version":  "0.10.1",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.10.1",
+    "notes":  "# Net Diagnostic v0.10.1\n\n\n### 优化（资源占用）\n\n- 发布构建启用 opt-level = \"s\" + lto = \"thin\" + codegen-units = 1 + strip：安装包体积 13.35 MB → **9.68 MB（-27%）**，启动加载更快。\n- 中文字体优先用 simhei.ttf（9.3 MB）而不是 msyh.ttc（18.8 MB），常驻内存约省 9 MB。\n- tokio worker 线程上限 8 → 4、blocking 线程 8 → 4：桌面工具不需要占满所有核心。\n- 日志按天滚动只保留最近 14 天，长期运行不再无限占盘。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.10.1/NetDiagnostic-0.10.1-x64.msi",
+    "sha256":  "4e91d405bcde77df6b028df21bfeb59cf865c6e6a880e0158ed2e888857df1c8",
     "announcement":  null
 }
