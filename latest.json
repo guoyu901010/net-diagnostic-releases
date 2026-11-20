@@ -1,8 +1,8 @@
 {
-    "version":  "0.10.2",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.10.2",
-    "notes":  "# Net Diagnostic v0.10.2\n\n\n### 优化\n\n- 运行归档保留数 50 → 20 份；日志页一次最多展示 2000 行（原 5000）；日志尾部读取上限 1 MiB → 512 KiB。长期运行的内存与磁盘占用进一步下降。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.10.2/NetDiagnostic-0.10.2-x64.msi",
-    "sha256":  "dc3e6e68545b50f0825b13bd9d8950eba1cf722e2416b96a7afc906178e4ad57",
+    "version":  "0.11.0",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.11.0",
+    "notes":  "# Net Diagnostic v0.11.0\n\n\n### 新增\n\n- 新增 \net-diagnostic-speed-server：单文件测速服务端（约 190 KB），提供 /ping、/down?bytes=N、/up 三个端点，不落盘、无第三方依赖，用于在自有网络内测上下行带宽。\n- Linux x64 静态二进制由 GitHub Actions 构建（musl），Windows 版随 Release 一起提供。\n- 直连文件协议允许显式启用明文 HTTP（内网 / IPv6 自建测速服务需要）。\n\n### 文档\n\n- 新增 docs/SPEED-SERVER.md：部署、客户端配置、家庭宽带测法与安全说明。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.11.0/NetDiagnostic-0.11.0-x64.msi",
+    "sha256":  "ae5f9088170159084f75b4b15a1a81137312f2506432d2b426638d8a2bee934b",
     "announcement":  null
 }
