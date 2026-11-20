@@ -1,8 +1,8 @@
 {
-    "version":  "0.9.2",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.9.2",
-    "notes":  "# Net Diagnostic v0.9.2\n\n\n### 修复\n\n- 应用内更新下载改用 GitHub API 资产地址：github.com 在部分网络被 DNS 劫持（实测解析到 57.155.x），而 \u0007pi.github.com 可直连。下载时自动把发布直链解析成 API 资产地址并带 Accept: application/octet-stream。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.9.2/NetDiagnostic-0.9.2-x64.msi",
-    "sha256":  "ddbc3b53c51599ab10d535d0fa44177d47e99cc9303972715092382423419b10",
+    "version":  "0.10.0",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.10.0",
+    "notes":  "# Net Diagnostic v0.10.0\n\n\n### 变更\n\n- 测速默认**只走国内**：新增 direct 协议（直接 GET 文件 / POST 二进制），默认下载端点为清华 TUNA 的 Ubuntu ISO（实测 59.9 Mbps）。\n- 默认上传端点**留空**：国内市场没有公共上传服务，程序不会再退回 Cloudflare；上传模块显示\"未配置\"，需要时填单位内网的 POST 地址即可。\n- 旧的 Cloudflare 默认配置在加载时自动迁移到国内镜像；自定义端点不受影响。\n- 设置页协议下拉增加\"直连文件（国内，默认）\"。\n\n### 说明\n\n- 上传测速需要一台能接收 POST 的国内服务器；没有就跳过，不会产生任何境外流量。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.10.0/NetDiagnostic-0.10.0-x64.msi",
+    "sha256":  "6961990769a8bc7a8a43d22b7b66d9d6eb9f07b167c12299235f805c16ee09b1",
     "announcement":  null
 }
