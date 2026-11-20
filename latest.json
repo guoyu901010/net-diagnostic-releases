@@ -1,6 +1,6 @@
 {
-    "version":  "0.8.0",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.8.0",
-    "notes":  "# Net Diagnostic v0.8.0\n\n\n### 新增\n\n- 更新检查改为读取公开仓库的 `latest.json`：版本、下载页、本版说明和**公告**都在一个文件里，改文案不用发版。\n- 公告条：`latest.json` 里的 `announcement` 会以横幅显示在窗口顶部，支持 `info` / `warning` / `critical` 三种颜色；同一条（按 `id`）只提示一次，点「知道了」后写入配置不再打扰。\n- `scripts/publish.ps1` 发布时自动更新 `latest.json`，并保留已有公告内容。\n\n### 说明\n\n- `docs/latest.json.example` 是完整结构示例。\n- 公告修改方式：在 GitHub 网页打开公开仓库的 `latest.json` 直接编辑 `announcement` 并提交，几分钟内所有客户端可见。\n",
+    "version":  "0.8.1",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.8.1",
+    "notes":  "# Net Diagnostic v0.8.1\n\n\n### 改进\n\n- 检查更新后顶栏直接给出结论：`已是最新 vX.Y.Z`（绿色）或 `检查失败`（黄色，悬停看原因），旁边保留「重新检查 / 重试」。\n- 检查结果同时写到窗口底部状态栏：`已是最新版本（vX.Y.Z），无需更新。` / `发现新版本 vX.Y.Z…`，点完按钮不会\"什么都没发生\"。\n",
     "announcement":  null
 }
