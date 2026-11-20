@@ -1,6 +1,6 @@
 {
     "version":  "0.8.0",
     "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.8.0",
-    "notes":  "# Net Diagnostic v0.8.0\n\n\n### 鏂板\n\n- 鏇存柊妫€鏌ユ敼涓鸿鍙栧叕寮€浠撳簱鐨?`latest.json`锛氱増鏈€佷笅杞介〉銆佹湰鐗堣鏄庡拰**鍏憡**閮藉湪涓€涓枃浠堕噷锛屾敼鏂囨涓嶇敤鍙戠増銆?- 鍏憡鏉★細`latest.json` 閲岀殑 `announcement` 浼氫互妯箙鏄剧ず鍦ㄧ獥鍙ｉ《閮紝鏀寔 `info` / `warning` / `critical` 涓夌棰滆壊锛涘悓涓€鏉★紙鎸?`id`锛夊彧鎻愮ず涓€娆★紝鐐广€岀煡閬撲簡銆嶅悗鍐欏叆閰嶇疆涓嶅啀鎵撴壈銆?- `scripts/publish.ps1` 鍙戝竷鏃惰嚜鍔ㄦ洿鏂?`latest.json`锛屽苟淇濈暀宸叉湁鍏憡鍐呭銆?\n### 璇存槑\n\n- `docs/latest.json.example` 鏄畬鏁寸粨鏋勭ず渚嬨€?- 鍏憡淇敼鏂瑰紡锛氬湪 GitHub 缃戦〉鎵撳紑鍏紑浠撳簱鐨?`latest.json` 鐩存帴缂栬緫 `announcement` 骞舵彁浜わ紝鍑犲垎閽熷唴鎵€鏈夊鎴风鍙銆?",
+    "notes":  "# Net Diagnostic v0.8.0\n\n\n### 新增\n\n- 更新检查改为读取公开仓库的 `latest.json`：版本、下载页、本版说明和**公告**都在一个文件里，改文案不用发版。\n- 公告条：`latest.json` 里的 `announcement` 会以横幅显示在窗口顶部，支持 `info` / `warning` / `critical` 三种颜色；同一条（按 `id`）只提示一次，点「知道了」后写入配置不再打扰。\n- `scripts/publish.ps1` 发布时自动更新 `latest.json`，并保留已有公告内容。\n\n### 说明\n\n- `docs/latest.json.example` 是完整结构示例。\n- 公告修改方式：在 GitHub 网页打开公开仓库的 `latest.json` 直接编辑 `announcement` 并提交，几分钟内所有客户端可见。\n",
     "announcement":  null
 }
