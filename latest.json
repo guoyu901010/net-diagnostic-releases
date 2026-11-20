@@ -1,8 +1,8 @@
 {
-    "version":  "0.9.0",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.9.0",
-    "notes":  "# Net Diagnostic v0.9.0\n\n\n### 新增\n\n- **应用内更新**：发现新版本后点「下载并安装」，程序自己下载 MSI、校验 SHA256、启动安装并退出旧版本，不再跳浏览器。\n- 下载过程有百分比进度；校验失败会删除文件并提示，不会安装来路不明的包。\n- `latest.json` 增加 `download_url` 与 `sha256` 字段，`scripts/publish.ps1` 发版时自动写入。\n- 没有直链或没有哈希时，界面会明确说明并保底提供「打开发布页」。\n\n### 说明\n\n- MSI 未做代码签名，Windows 可能提示\"未知发布者\"；哈希校验只能保证\"文件与发布方一致\"，不能证明发布方身份。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.9.0/NetDiagnostic-0.9.0-x64.msi",
-    "sha256":  "480103cf885bfba5fdad57424d60e00e7ea4d920e4d541e22fdd64190555925d",
+    "version":  "0.9.1",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.9.1",
+    "notes":  "# Net Diagnostic v0.9.1\n\n\n### 修复\n\n- 默认 DNS 名称 www.qq.com 在本机实测解析要 600 ms 以上，偶发 2 秒超时被报成 DNS 失败；改为 www.163.com（13 ms）。旧配置里的该默认值会自动迁移。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.9.1/NetDiagnostic-0.9.1-x64.msi",
+    "sha256":  "a2ecfedcd2677883fe6560350b18f985b6707f0d048a51f6d3c5dd825b98938a",
     "announcement":  null
 }
