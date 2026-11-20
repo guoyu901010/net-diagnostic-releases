@@ -1,8 +1,8 @@
 {
-    "version":  "0.11.0",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.11.0",
-    "notes":  "# Net Diagnostic v0.11.0\n\n\n### 新增\n\n- 新增 \net-diagnostic-speed-server：单文件测速服务端（约 190 KB），提供 /ping、/down?bytes=N、/up 三个端点，不落盘、无第三方依赖，用于在自有网络内测上下行带宽。\n- Linux x64 静态二进制由 GitHub Actions 构建（musl），Windows 版随 Release 一起提供。\n- 直连文件协议允许显式启用明文 HTTP（内网 / IPv6 自建测速服务需要）。\n\n### 文档\n\n- 新增 docs/SPEED-SERVER.md：部署、客户端配置、家庭宽带测法与安全说明。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.11.0/NetDiagnostic-0.11.0-x64.msi",
-    "sha256":  "ae5f9088170159084f75b4b15a1a81137312f2506432d2b426638d8a2bee934b",
+    "version":  "0.11.1",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.11.1",
+    "notes":  "# Net Diagnostic v0.11.1\n\n\n### 修复\n\n- 更新检查的备用地址只在默认源上启用，避免自定义/测试地址失败时被静默替换（CI 因此误报成功）。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.11.1/NetDiagnostic-0.11.1-x64.msi",
+    "sha256":  "f3db0ac015c8d509ce1b15ffbd4a047f9499ea188364b368eaeffb245ff567df",
     "announcement":  null
 }
