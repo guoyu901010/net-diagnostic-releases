@@ -1,8 +1,8 @@
 {
-    "version":  "0.10.1",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.10.1",
-    "notes":  "# Net Diagnostic v0.10.1\n\n\n### 优化（资源占用）\n\n- 发布构建启用 opt-level = \"s\" + lto = \"thin\" + codegen-units = 1 + strip：安装包体积 13.35 MB → **9.68 MB（-27%）**，启动加载更快。\n- 中文字体优先用 simhei.ttf（9.3 MB）而不是 msyh.ttc（18.8 MB），常驻内存约省 9 MB。\n- tokio worker 线程上限 8 → 4、blocking 线程 8 → 4：桌面工具不需要占满所有核心。\n- 日志按天滚动只保留最近 14 天，长期运行不再无限占盘。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.10.1/NetDiagnostic-0.10.1-x64.msi",
-    "sha256":  "4e91d405bcde77df6b028df21bfeb59cf865c6e6a880e0158ed2e888857df1c8",
+    "version":  "0.10.2",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.10.2",
+    "notes":  "# Net Diagnostic v0.10.2\n\n\n### 优化\n\n- 运行归档保留数 50 → 20 份；日志页一次最多展示 2000 行（原 5000）；日志尾部读取上限 1 MiB → 512 KiB。长期运行的内存与磁盘占用进一步下降。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.10.2/NetDiagnostic-0.10.2-x64.msi",
+    "sha256":  "dc3e6e68545b50f0825b13bd9d8950eba1cf722e2416b96a7afc906178e4ad57",
     "announcement":  null
 }
