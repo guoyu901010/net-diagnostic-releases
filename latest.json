@@ -1,6 +1,6 @@
 {
-    "version":  "0.8.2",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.8.2",
-    "notes":  "# Net Diagnostic v0.8.2\n\n\n### 修复\n\n- 0.8.0/0.8.1 的更新源用 `raw.githubusercontent.com`，国内网络常被重置（本机实测直连返回 000，而 `api.github.com` 返回 200），导致「检查更新」一直失败。默认源改为 **GitHub Contents API**，可直连。\n- 主源失败时自动尝试备用地址（raw），两个都失败才报错。\n- 配置里遗留的 raw 地址在加载时自动迁移到 Contents API。\n",
+    "version":  "0.8.3",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.8.3",
+    "notes":  "# Net Diagnostic v0.8.3\n\n\n### 修复\n\n- 顶栏重复显示版本号：`已是最新 v0.8.2` 后面又跟一个 `v0.8.2`，现在只显示一次。\n- 默认公网 Ping 目标从 `1.1.1.1`/`8.8.8.8` 改为 `223.5.5.5`/`119.29.29.29`（国内 anycast）。实测境外目标 200 ms 级时延会被误判成「运营商路径异常」。\n- 默认 DNS 名称从 `example.com`/`cloudflare.com` 改为 `www.baidu.com`/`www.qq.com`，避免因域名本身不可达而误报 DNS 失败。\n- `ISP_PATH_ABNORMAL` 增加限制说明：境外目标的 200 ms 级时延可能属正常国际链路。\n- 旧配置里的这两个默认值会在加载时自动迁移；用户自定义的目标不受影响。\n",
     "announcement":  null
 }
