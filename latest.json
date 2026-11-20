@@ -1,8 +1,8 @@
 {
-    "version":  "0.12.0",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.12.0",
-    "notes":  "# Net Diagnostic v0.12.0\n\n\n### 新增\n\n- 「导出诊断包」：一次导出一个 zip，内含报告 HTML/JSON、最近 512 KiB 日志、系统与主要配置摘要；勾选脱敏时报告与配置摘要一并脱敏。\n- 专线测试结果支持导出 HTML / JSON，含吞吐、UDP 丢包抖动、长稳统计与速率曲线。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.12.0/NetDiagnostic-0.12.0-x64.msi",
-    "sha256":  "c74dd792f572291facd2f2a4e1fb6205fb05ea28220c7ce3f134290e13a3b0aa",
+    "version":  "0.12.1",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.12.1",
+    "notes":  "# Net Diagnostic v0.12.1\n\n\n### 新增\n\n- `--diagnose --out \u003c目录\u003e` 无界面模式：跑一次完整诊断并输出 HTML/JSON/诊断包，供自动化与回归使用。\n- 规则：单个 DNS 名称失败、其余正常时改为 `DNS_SINGLE_NAME_FAILURE`，不再笼统报\"无法定论\"。\n- 规则：上下行速率相差 20 倍以上时提示 `SPEED_ENDPOINT_SUSPICION`（测速端点限速/链路非对称），不直接归因运营商。\n\n### 工程\n\n- CI 增加 `rustsec/audit-check` 依赖漏洞检查。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.12.1/NetDiagnostic-0.12.1-x64.msi",
+    "sha256":  "d17e449530830809eb33b00a1b69d0f3d3bb159d1b5924ee13ade4da962f738a",
     "announcement":  null
 }
