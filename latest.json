@@ -1,8 +1,8 @@
 {
-    "version":  "0.11.1",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.11.1",
-    "notes":  "# Net Diagnostic v0.11.1\n\n\n### 修复\n\n- 更新检查的备用地址只在默认源上启用，避免自定义/测试地址失败时被静默替换（CI 因此误报成功）。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.11.1/NetDiagnostic-0.11.1-x64.msi",
-    "sha256":  "f3db0ac015c8d509ce1b15ffbd4a047f9499ea188364b368eaeffb245ff567df",
+    "version":  "0.12.0",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.12.0",
+    "notes":  "# Net Diagnostic v0.12.0\n\n\n### 新增\n\n- 「导出诊断包」：一次导出一个 zip，内含报告 HTML/JSON、最近 512 KiB 日志、系统与主要配置摘要；勾选脱敏时报告与配置摘要一并脱敏。\n- 专线测试结果支持导出 HTML / JSON，含吞吐、UDP 丢包抖动、长稳统计与速率曲线。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.12.0/NetDiagnostic-0.12.0-x64.msi",
+    "sha256":  "c74dd792f572291facd2f2a4e1fb6205fb05ea28220c7ce3f134290e13a3b0aa",
     "announcement":  null
 }
