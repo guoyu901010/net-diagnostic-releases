@@ -1,8 +1,8 @@
 {
-    "version":  "0.9.1",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.9.1",
-    "notes":  "# Net Diagnostic v0.9.1\n\n\n### 修复\n\n- 默认 DNS 名称 www.qq.com 在本机实测解析要 600 ms 以上，偶发 2 秒超时被报成 DNS 失败；改为 www.163.com（13 ms）。旧配置里的该默认值会自动迁移。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.9.1/NetDiagnostic-0.9.1-x64.msi",
-    "sha256":  "a2ecfedcd2677883fe6560350b18f985b6707f0d048a51f6d3c5dd825b98938a",
+    "version":  "0.9.2",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.9.2",
+    "notes":  "# Net Diagnostic v0.9.2\n\n\n### 修复\n\n- 应用内更新下载改用 GitHub API 资产地址：github.com 在部分网络被 DNS 劫持（实测解析到 57.155.x），而 \u0007pi.github.com 可直连。下载时自动把发布直链解析成 API 资产地址并带 Accept: application/octet-stream。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.9.2/NetDiagnostic-0.9.2-x64.msi",
+    "sha256":  "ddbc3b53c51599ab10d535d0fa44177d47e99cc9303972715092382423419b10",
     "announcement":  null
 }
