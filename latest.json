@@ -1,8 +1,8 @@
 {
-    "version":  "0.13.0",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.13.0",
-    "notes":  "# Net Diagnostic v0.13.0\n\n\n### 新增\n\n- 巡检模式：`net-diagnostic.exe --watch --interval 5m --cycles 48 --out D:\\\\diag`，定时跑完整诊断，只保存异常轮次的报告与诊断包，结束输出汇总。\n- 测速端点支持清华 TUNA / 中科大 USTC 一键预设。\n- 测速首段遇到 403/429/5xx 时自动等待 800ms 重试一次。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.13.0/NetDiagnostic-0.13.0-x64.msi",
-    "sha256":  "781af9005e9a3ce8f006d46bfb6a9da369722c9080a56772b738c840727577bc",
+    "version":  "0.14.0",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.14.0",
+    "notes":  "# Net Diagnostic v0.14.0\n\n\n### 新增\n\n- 「巡检」页：图形界面启动/停止巡检，实时显示后台输出；异常轮次自动保存报告与诊断包。\n- 文档 \\`docs/PATROL.md\\`：界面与命令行用法、判读方式。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.14.0/NetDiagnostic-0.14.0-x64.msi",
+    "sha256":  "7ec36ec22a56f5a7d9950a78ae53c28e4d58380ec01c7f2540f8c85e329ffde9",
     "announcement":  null
 }
