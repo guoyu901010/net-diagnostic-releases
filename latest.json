@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.2",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v1.1.2",
-    "notes":  "# Net Diagnostic v1.1.2\n\n\n### 修复\n\n- 顶栏「发现 vX.Y.Z」徽章此前点击会跳转浏览器，被误读为\"客户端不能直接更新\"。现在徽章直接触发应用内下载与安装（下载按钮「更新到 vX.Y.Z」）；发布信息没有直链时才回退到打开发布页。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v1.1.2/NetDiagnostic-1.1.2-x64.msi",
-    "sha256":  "a9a807b2026f2a7ddd90771fc9a7f685e011026fae1370fc9758153a15267a65",
+    "version":  "1.1.3",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v1.1.3",
+    "notes":  "# Net Diagnostic v1.1.3\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v1.1.3/NetDiagnostic-1.1.3-x64.msi",
+    "sha256":  "a0f74c2734ea832cfc022274061089023ebfb69d31d8397e8428f4283f8547e8",
     "announcement":  null
 }
