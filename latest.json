@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.0",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v1.1.0",
-    "notes":  "# Net Diagnostic v1.1.0\n\n\n### 工程\n\n- hickory-resolver / hickory-proto 0.24.4 -\u003e 0.25.2：错误分类迁移到新的 `ProtoErrorKind::NoRecordsFound` 形状（NXDOMAIN/SERVFAIL 语义不变），hosts 文件关闭方式改用 `ResolveHosts::Never`。实测解析 17ms 正常。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v1.1.0/NetDiagnostic-1.1.0-x64.msi",
-    "sha256":  "f9c0a9e334fc0dc6bfddaa03ca98a00e441ed7e3bbea163276612127bc22ef67",
+    "version":  "1.1.1",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v1.1.1",
+    "notes":  "# Net Diagnostic v1.1.1\n\n\n### 修复\n\n- CI 上 UDP 回环测试偶发失败：Windows runner 的 Hyper-V 保留端口段会让 `port=0` 分配的 5 个临时端口全部绑不上 UDP（os error 10013）。临时端口重试上限提到 20 次。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v1.1.1/NetDiagnostic-1.1.1-x64.msi",
+    "sha256":  "ba04b963c9a4f099e9b9bda27e92844b3c1dd752684fae6cf5faab787d30c815",
     "announcement":  null
 }
