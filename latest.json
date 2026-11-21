@@ -1,8 +1,8 @@
 {
-    "version":  "0.14.0",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.14.0",
-    "notes":  "# Net Diagnostic v0.14.0\n\n\n### 新增\n\n- 「巡检」页：图形界面启动/停止巡检，实时显示后台输出；异常轮次自动保存报告与诊断包。\n- 文档 \\`docs/PATROL.md\\`：界面与命令行用法、判读方式。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.14.0/NetDiagnostic-0.14.0-x64.msi",
-    "sha256":  "7ec36ec22a56f5a7d9950a78ae53c28e4d58380ec01c7f2540f8c85e329ffde9",
+    "version":  "1.0.0",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v1.0.0",
+    "notes":  "# Net Diagnostic v1.0.0\n\n\n### 文档\n\n- 新增 \\`docs/USER-GUIDE.md\\`（使用手册）与 \\`docs/INDEX.md\\`（文档索引）。\n- README 增加文档入口。\n\n### 说明\n\n- 功能冻结：此后只修问题，不再新增功能。\n- hickory-resolver 0.25 升级因本机无法访问 crates.io 暂缓，保持 0.24。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v1.0.0/NetDiagnostic-1.0.0-x64.msi",
+    "sha256":  "e7f45ba39b1e1732946e26f2200b7a3657850aa59b7130632c7fdf41ceab616e",
     "announcement":  null
 }
