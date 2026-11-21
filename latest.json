@@ -1,8 +1,8 @@
 {
-    "version":  "0.12.1",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.12.1",
-    "notes":  "# Net Diagnostic v0.12.1\n\n\n### 新增\n\n- `--diagnose --out \u003c目录\u003e` 无界面模式：跑一次完整诊断并输出 HTML/JSON/诊断包，供自动化与回归使用。\n- 规则：单个 DNS 名称失败、其余正常时改为 `DNS_SINGLE_NAME_FAILURE`，不再笼统报\"无法定论\"。\n- 规则：上下行速率相差 20 倍以上时提示 `SPEED_ENDPOINT_SUSPICION`（测速端点限速/链路非对称），不直接归因运营商。\n\n### 工程\n\n- CI 增加 `rustsec/audit-check` 依赖漏洞检查。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.12.1/NetDiagnostic-0.12.1-x64.msi",
-    "sha256":  "d17e449530830809eb33b00a1b69d0f3d3bb159d1b5924ee13ade4da962f738a",
+    "version":  "0.13.0",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v0.13.0",
+    "notes":  "# Net Diagnostic v0.13.0\n\n\n### 新增\n\n- 巡检模式：`net-diagnostic.exe --watch --interval 5m --cycles 48 --out D:\\\\diag`，定时跑完整诊断，只保存异常轮次的报告与诊断包，结束输出汇总。\n- 测速端点支持清华 TUNA / 中科大 USTC 一键预设。\n- 测速首段遇到 403/429/5xx 时自动等待 800ms 重试一次。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v0.13.0/NetDiagnostic-0.13.0-x64.msi",
+    "sha256":  "781af9005e9a3ce8f006d46bfb6a9da369722c9080a56772b738c840727577bc",
     "announcement":  null
 }
