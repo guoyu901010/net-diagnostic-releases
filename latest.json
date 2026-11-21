@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.1",
-    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v1.0.1",
-    "notes":  "# Net Diagnostic v1.0.1\n\n\n### 修复\n\n- DNS 查询只使用\"已启用网卡\"上的 DNS 服务器，不再把已断开网卡的服务器排进候选。此前逐个尝试会吃满单次 2 秒超时，表现为两个域名同时超时、误报 DNS 路径异常。\n",
-    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v1.0.1/NetDiagnostic-1.0.1-x64.msi",
-    "sha256":  "31cfa34e21793f4670ae6b61d58f56d87ece2aab6e7adb954c7a96b258e1f76a",
+    "version":  "1.1.0",
+    "url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/tag/v1.1.0",
+    "notes":  "# Net Diagnostic v1.1.0\n\n\n### 工程\n\n- hickory-resolver / hickory-proto 0.24.4 -\u003e 0.25.2：错误分类迁移到新的 `ProtoErrorKind::NoRecordsFound` 形状（NXDOMAIN/SERVFAIL 语义不变），hosts 文件关闭方式改用 `ResolveHosts::Never`。实测解析 17ms 正常。\n",
+    "download_url":  "https://github.com/guoyu901010/net-diagnostic-releases/releases/download/v1.1.0/NetDiagnostic-1.1.0-x64.msi",
+    "sha256":  "f9c0a9e334fc0dc6bfddaa03ca98a00e441ed7e3bbea163276612127bc22ef67",
     "announcement":  null
 }
